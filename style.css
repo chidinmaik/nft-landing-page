@@ -1,0 +1,450 @@
+*{
+    margin: 0px;
+    margin-left:0px ;
+    max-width: 100%;
+    
+}
+body{
+    background-image:linear-gradient(to top,#20244A,#10F2EE,#20244A) ;
+    width: 100%;
+    color: white;
+    font-family: cursive;
+    
+}
+nav{
+    margin: 10px;
+    
+}
+ a{
+    color: white;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #00F5F1;
+
+}
+ul{
+    display: flex;
+    margin-left: -3%;
+    font-family: fantasy;
+    font-weight: 700;
+}
+.d {
+    color: #00F5F1;
+}
+
+li{
+    font-family: fantasy;
+    list-style: none;
+    margin-left: 10%;
+    font-weight: 200;
+}
+
+.logo{
+    font-size: 30px;
+    margin-top: -5px;
+}
+.login{
+    margin-left: 10%;
+    background-color:  #119997;
+    box-sizing: border-box;
+    width: 150px;
+    height: 50px;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25 green, blue, alpha);
+    border-radius: 18px;
+    font-family: elephant;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 15px;
+    padding: 15px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+nav .login:hover{
+    background-color: orange;
+}
+
+
+#hero{
+    margin-left: 10px;
+}
+/*#hero::after{
+    content: "" url("image/1\ 1.png");
+    height: 500px;
+    
+}
+*/
+.nft{
+    color: orange;
+  text-shadow: 0px 0px 20px white;
+  -webkit-text-stroke: 2px black;
+}
+#hero h1{
+    font-size: 60px;
+}
+#hero h6{
+    font-size: 18px;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+ #hero .buy {
+    background-color: #10F2EE;
+    height: 74px ;
+    border-radius:33px ;
+    color: white;
+    font-weight: 900;
+    border: 1px solid white;
+    box-shadow: 0px 0px 5px black;
+    width: 211px;
+    margin-top: 70px;
+}
+#hero .buy:hover {
+    background-color: orange;
+    height: 74px ;
+    border-radius:33px ;
+    color: yellow;
+
+    font-weight: 900;
+    border: 1px solid white;
+    box-shadow: 0px 0px 5px black;
+    width: 211px;
+    margin-top: 70px;
+
+}
+
+/*DESKTOP STYLING*/
+@media (min-width: 720px ) 
+and (max-width:2000px ) 
+{
+#hero :before{
+    content: "" url("image/Arrow1.png");
+    position: absolute;
+    left: 20px;
+    top: 290px;
+   
+}
+.hero-img{
+    width:45%;
+    margin-left: 50%; 
+    position: absolute;
+    margin-top: -250px;
+
+}
+
+nav .login:hover{
+    background-color: orange;
+}
+ 
+
+#started {
+    background-image:-moz-linear-gradient(#00F5F1,#008FFF);
+    background-image: -o-linear-gradient(#00F5F1,#008FFF);
+    background-image: linear-gradient(#00F5F1,#008FFF);
+    background-image: -webkit-linear-gradient(#00F5F1,#008FFF);
+    margin: 20px;
+      padding: 20px;
+      text-align: center;
+      border-radius:55px ;
+      height: 300px;
+      line-height: 50px;
+
+}   
+#started .started{
+    background-color: black;
+    border-radius: 32px;
+    color: white;
+    height: 68px;
+    width: 266px;
+    margin-top: 50px;
+
+}
+
+
+footer{
+   
+  
+    font-family: cursive;
+    font-size: 14px;
+    margin-left: 1%;
+
+}
+
+footer .first{
+    margin-left: 10%;
+    
+      
+}
+footer .third{
+    margin-left: 20%;
+    
+      
+}
+footer .fourth{
+    margin-left: 30%;
+    
+      
+}
+footer .foot{
+    display: flex;
+    margin: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+}
+
+
+
+
+
+
+
+/*DESKTOP STYLING ENDS HERE8*/
+
+
+
+@media (max-width: 720px ) 
+
+{
+    #hero .buy::after{
+        content: "" url("image/Arrow1.png");
+        position: absolute;
+        left: 20px;
+        top: 330px;
+}
+
+.hero-img{
+    width:60%;
+    right: 0px;
+    margin-left: 280px;
+    margin-top: -250px;
+    position: absolute;
+
+}
+ .login{
+    display: none;
+}
+
+#started {
+    background-image:-moz-linear-gradient(#00F5F1,#008FFF);
+    background-image: -o-linear-gradient(#00F5F1,#008FFF);
+    background-image: linear-gradient(to right,#00F5F1,#008FFF);
+    background-image: -webkit-linear-gradient(to right,#00F5F1,#008FFF);
+    margin: 40px;
+      padding: 20px;
+      text-align: center;
+      border-radius:55px ;
+      height: 200px;
+      line-height: 50px;
+      box-shadow: 0px 0px 20px black;
+}   
+#started .started{
+    background-color: black;
+    border-radius: 32px;
+    color: white;
+    font-family: cursive;
+    height: 50px;
+    width: 166px;
+    margin-top: 10px;
+
+}
+    #started h3{
+        font-family: cursive;
+
+    }
+
+    footer{
+   
+  
+        font-family: cursive;
+        font-size: 14px;
+        margin-left: 1%;
+    
+    }
+    
+    footer .first{
+        margin-left: 50px;
+        
+          
+    }
+    footer .third{
+        margin-left: 50px;
+        
+          
+    }
+    footer .fourth{
+        margin-left: 50px;
+        
+          
+    }
+    footer .foot{
+        display: flex;
+        margin: 10px;
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+
+
+
+
+
+.hero {}
+
+
+#hero h1::after{
+    content: "" ;
+    width: 29px;
+    height: 50px;
+
+    
+}
+
+
+
+#hero .sell {
+    background-color: transparent;
+    border-radius: 33px;
+    width: 211px;
+    height:74px ;
+    font-family: Arial ;
+    font-weight: 900;
+    border: 1px solid #1E1E1E;
+    box-shadow: 0px 0px 5px black;
+}
+
+#featured{
+    margin: 50px ;
+    text-align: center;
+
+}
+
+
+
+
+#featured .box{
+    background-color: grey;
+    opacity: 70%;
+    height: fit-content;
+    width: 100%;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px black;
+
+}
+#featured h2{
+    color: orange;
+    -webkit-text-stroke: 1px white;
+
+}
+#featured img{
+    width: 20%;
+    margin: 5%;
+}
+
+#pricing img{
+    width: 50%;
+    margin-top: -100px;
+    
+}
+#pricing{
+    display: flex;
+}
+
+#pricing h2{
+    color:#20244A
+
+}
+
+#pricing h1{
+     color: white;
+     -webkit-text-stroke: 1px black;
+}
+#pricing h6{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 200;
+font-size: 18px;
+line-height: 27px;
+color: #FFFBFB;
+}
+
+#pricing .pricing-btn{
+background: #3A99E3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-size: 12px;
+height: 64px;
+color: white;
+font-weight: 600;
+font-family: cabin;
+width: 50%;
+border-radius: 33px;
+margin-bottom: 20px;
+margin-top: 50px;
+
+/*transform: matrix(1, 0, 0, -1, 0, 0);
+*/
+}
+
+
+#list-box{
+    display: flex;
+
+    
+}
+#list img{
+    width: 250px;
+    margin-left: 50%;
+    margin-top: 50px;
+    
+    
+}
+
+#testimonial{
+    text-align: center;
+
+}
+
+#testimonial h1{
+    font-family: cursive;
+    font-weight: 100;
+}
+
+#testimonial h4{
+    font-family: cursive;
+    font-weight: 600;
+    color: orange;
+}
+
+#testimonial .box{
+    display: flex;
+    margin-top: 20px;
+}
+#testimonial .box .box1{
+   width: 30%;
+   height: fit-content;
+   border: none;
+   margin-top: 40px;
+   margin-left: 10px;
+   margin-right: 10px;
+   padding: 16px;
+   font-size:13px ;
+   line-height: 16px;
+   font-weight: 100;
+   font-family: cursive;
+   border-radius: 21px;
+   margin-bottom: 20px;
+   background-color:#7384A9;
+}
+#started{
+    font-family: arial;
+    font-weight: 600;
+}
+#started h1{
+    color: white;
+    font-family: arial;
+}
+
+
+
+
