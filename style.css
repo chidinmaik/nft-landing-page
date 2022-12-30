@@ -12,7 +12,13 @@ body{
     
 }
 nav{
-    margin: 10px;
+    margin: 0px;
+    background-color: #20244A;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    padding: 10px;
     
 }
  a{
@@ -45,7 +51,7 @@ li{
     margin-top: -5px;
 }
 .login{
-    margin-left: 10%;
+    margin-left: 15%;
     background-color:  #119997;
     box-sizing: border-box;
     width: 150px;
@@ -57,7 +63,7 @@ li{
     font-weight: 100;
     font-size: 15px;
     padding: 15px;
-    margin-top: 0px;
+    margin-top: -5px;
     text-align: center;
 }
 
@@ -68,6 +74,7 @@ nav .login:hover{
 
 #hero{
     margin-left: 10px;
+    margin-top: 60px;
 }
 /*#hero::after{
     content: "" url("image/1\ 1.png");
@@ -86,6 +93,7 @@ nav .login:hover{
 #hero h6{
     font-size: 18px;
     font-weight: 300;
+    margin-top: -40px;
     font-family: sans-serif;
 }
  #hero .buy {
@@ -117,19 +125,18 @@ nav .login:hover{
 @media (min-width: 720px ) 
 and (max-width:2000px ) 
 {
-#hero :before{
-    content: "" url("image/Arrow1.png");
-    position: absolute;
-    left: 20px;
-    top: 290px;
-   
-}
+
 .hero-img{
     width:45%;
     margin-left: 50%; 
-    position: absolute;
     margin-top: -250px;
 
+}
+#hero h6{
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: -150px;
+    font-family: sans-serif;
 }
 
 nav .login:hover{
@@ -215,11 +222,11 @@ footer .foot{
 }
 
 .hero-img{
-    width:60%;
+    width:40%;
     right: 0px;
     margin-left: 280px;
     margin-top: -250px;
-    position: absolute;
+    
 
 }
  .login{
