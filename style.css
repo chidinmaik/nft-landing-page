@@ -55,6 +55,7 @@ li{
 .logo{
     font-size: 30px;
     margin-top: -5px;
+    margin-left: -5px;
 }
 .login{
     margin-left: 15%;
