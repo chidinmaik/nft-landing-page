@@ -138,9 +138,10 @@ nav .login:hover{
     display: none;
 }**/
 #slides h2{
+    margin-top: 10px;
     color: orange;
     -webkit-text-stroke: 1px white;
-
+     text-align: center;
 }
 
 .slider{
@@ -556,6 +557,7 @@ height: 64px;
 color: white;
 font-weight: 600;
 font-family: cabin;
+border: none;
 width: 50%;
 border-radius: 33px;
 margin-bottom: 20px;
