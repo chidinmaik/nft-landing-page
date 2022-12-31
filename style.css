@@ -504,7 +504,7 @@ and (min-width: 100px)
 
 
 
-#featured .box{
+#featured .bx{
     background-color: grey;
     opacity: 70%;
     height: fit-content;
