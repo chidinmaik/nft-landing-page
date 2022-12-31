@@ -10,12 +10,13 @@ visit project @ https://nft-landing-page-sigma.vercel.app/
 Clone or download zipped code
 
 |Update index.html file
-<title>
-|favicon images
-|Logo
-|Social Links
-|Countdown data-date
-|Heading and paragraph text
-|Update style.css file
-|Fonts
-|Colors
+<br>
+<title><br>
+|favicon images<br>
+|Logo<br>
+|Social Links<br>
+|Countdown data-date<br>
+|Heading and paragraph text<br>
+|Update style.css file<br>
+|Fonts<br>
+|Colors<br>
