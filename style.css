@@ -347,6 +347,7 @@ footer .form{
 
 
 @media (max-width: 720px ) 
+and (min-width: 100px)
 
 {
   
