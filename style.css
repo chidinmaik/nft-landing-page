@@ -486,9 +486,10 @@ and (min-width: 100px)
     border-radius: 33px;
     width: 211px;
     height:74px ;
+    color: #00F5F1;
     font-family: Arial ;
     font-weight: 900;
-    border: 1px solid #1E1E1E;
+    border: 1px solid #00F5F1;
     box-shadow: 0px 0px 5px black;
     margin-top: 30px;
 }
@@ -589,7 +590,7 @@ margin-top: 50px;
 }
 
 #testimonial h4{
-    font-family: cursive;
+
     font-weight: 600;
     color: orange;
 }
