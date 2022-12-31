@@ -20,7 +20,6 @@ nav{
     top: 0px;
     width: 100%;
     padding: 10px;
-    padding-right: 10px ;
     margin-right: 0px;
     padding-right: 10px;
 
@@ -47,7 +46,7 @@ ul{
 li{
     font-family: fantasy;
     list-style: none;
-    margin-left: 10%;
+    margin-left: 5%;
     font-weight: 200;
     font-size: 15px;
 
