@@ -114,7 +114,7 @@ nav .login:hover{
     font-weight: 900;
     border: 1px solid white;
     box-shadow: 0px 0px 5px black;
-    width: 211px;
+    width: 50%;
     margin-top: 20px;
 }
 
@@ -485,7 +485,7 @@ and (min-width: 100px)
 #hero .sell {
     background-color: transparent;
     border-radius: 33px;
-    width: 211px;
+    width: 50%;
     height:74px ;
     color: #00F5F1;
     font-family: Arial ;
