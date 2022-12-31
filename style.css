@@ -19,6 +19,8 @@ nav{
     right: 0px;
     top: 0px;
     padding: 10px;
+    margin-right: 0px;
+
     
 }
  a{
@@ -84,8 +86,9 @@ nav .login:hover{
 */
 .nft{
     color: orange;
-  text-shadow: 0px 0px 20px white;
+  text-shadow: 0px 0px 5px white;
   -webkit-text-stroke: 2px black;
+   margin-bottom: 10px;
 }
 #hero h1{
     font-size: 60px;
@@ -105,8 +108,11 @@ nav .login:hover{
     border: 1px solid white;
     box-shadow: 0px 0px 5px black;
     width: 211px;
-    margin-top: 70px;
+    margin-top: 20px;
 }
+
+
+
 #hero .buy:hover {
     background-color: orange;
     height: 74px ;
@@ -121,10 +127,98 @@ nav .login:hover{
 
 }
 
+/*.mySlides{
+    display: none;
+}**/
+#slides h2{
+    color: orange;
+    -webkit-text-stroke: 1px white;
+
+}
+
+.slider{
+   
+    
+    width: 728px;
+   text-align: center;
+   overflow: hidden;
+   justify-content: center;
+
+}
+
+
+.slides{
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+
+}
+
+.slides::-webkit-scrollbar{
+    width: 10px;
+    height: 10px;
+
+}
+.slides::-webkit-scrollbar-thumb{
+    background-image: linear-gradient( to right ,skyblue, navy ) ;
+    border-radius: 10px;
+    
+    
+} 
+
+.slides::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+
+
+
+.slides > div{
+    scroll-snap-align: center;
+    flex-shrink: 0;
+    width: 400px;
+    
+    margin-right: 50px ;
+    transform-origin: center center;
+  transition: transform 0.5s;
+  display:flex ;
+  align-items: center;
+  justify-content: center;
+
+
+
+
+}
+
+.slider a{
+    display: inline-flex;
+    width: 2rem;
+    height: 2rem;
+    background-color: navy;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0 0 0.5rem 0;
+
+}
+.slider a:focus{
+    background-color: orange;
+
+}
+
 /*DESKTOP STYLING*/
 @media (min-width: 720px ) 
 and (max-width:2000px ) 
 {
+
+    #hero .arrow{
+        display: none;
+}
+
+
 
 .hero-img{
     width:45%;
@@ -168,6 +262,7 @@ nav .login:hover{
 }
 
 
+
 footer{
    
   
@@ -199,6 +294,46 @@ footer .foot{
     text-align: center;
 }
 
+footer .form{
+    border: 2px solid #10F2EE;
+    height: 30px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 23px;
+    width: fit-content;
+    margin-left: 50%;
+}
+
+
+.form .email{
+    border: none;
+    background-color: transparent;
+    color: #FFFBFB;
+    padding: 5px;
+}
+
+.form .submit{
+    border: none;
+    background-color: #00F5F1;
+    height: 25px;
+    border-radius: 22px;
+    width: 70px;
+
+}
+
+
+.slider{
+   
+    
+    width: 100%;
+   text-align: center;
+   overflow: hidden;
+   justify-content: center;
+
+}
+
+
+
 }
 
 
@@ -214,11 +349,10 @@ footer .foot{
 @media (max-width: 720px ) 
 
 {
-    #hero .buy::after{
-        content: "" url("image/Arrow1.png");
-        position: absolute;
-        left: 20px;
-        top: 330px;
+  
+    
+    #hero .arrow2{
+        display: none;
 }
 
 .hero-img{
@@ -291,13 +425,42 @@ footer .foot{
         margin-top: 20px;
         text-align: center;
     }
+
+    footer .form{
+        border: 2px solid #10F2EE;
+        height: 30px;
+        text-align: center;
+        padding: 10px;
+        border-radius: 23px;
+        width: fit-content;
+        margin-left: 30%;
+    }
+    
+    
+    .form .email{
+        border: none;
+        background-color: transparent;
+        color: #FFFBFB;
+        padding: 5px;
+    }
+
+    .form .email:active{
+        border: none;
+        background-color: orange;
+    }
+    
+    .form .submit{
+        border: none;
+        background-color: #00F5F1;
+        height: 25px;
+        border-radius: 22px;
+        width: 70px;
+    
+    }
 }
 
 
 
-
-
-.hero {}
 
 
 #hero h1::after{
@@ -319,6 +482,7 @@ footer .foot{
     font-weight: 900;
     border: 1px solid #1E1E1E;
     box-shadow: 0px 0px 5px black;
+    margin-top: 30px;
 }
 
 #featured{
@@ -365,7 +529,7 @@ footer .foot{
 
 #pricing h1{
      color: white;
-     -webkit-text-stroke: 1px black;
+     
 }
 #pricing h6{
 font-family: 'Poppins';
@@ -453,5 +617,7 @@ margin-top: 50px;
 }
 
 
+
+/*ABOUT SECTION STYLING CSS**/
 
 
